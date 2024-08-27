@@ -3,7 +3,7 @@ a_name Zapphire Utils
 a_version 1.5
 a_author ImNotKonnor
 a_add_type Spigot
-a_add_version Spigot 1.21 https://github.com/KONN0R-DEV/addonMSP/releases/download/spigot/spigot-1.21.jar 17
+a_add_version Spigot 1.21 https://api.papermc.io/v2/projects/paper/versions/1.21.1/builds/52/downloads/paper-1.21.1-52.jar 17
 
 :section redefine_funcs
 c_exec for i in glob.glob("addons/*.py"):f=open(i,'r');exec(f.read(),globals());f.close()
